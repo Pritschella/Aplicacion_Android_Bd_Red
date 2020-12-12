@@ -1,0 +1,94 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Montserrat, Arial;
+    margin: 0;
+}
+
+header{
+    background: #1B396A;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+header h1{
+    font-size: 50px;
+}
+
+.nav{
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+}
+
+.nav a{
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav a.right{
+    float: right;
+} 
+
+/* Pseudoclase HOVER de los hipervinculos 
+    Sucede cuando pasa el puntero sobre un elemento
+    */
+.nav a:hover{
+    background-color: darkgray;
+    color: white;
+}
+
+.row{
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside{
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 15px;
+}
+
+.main{
+    flex: 70%;
+    background-color: white;
+    padding: 15px;
+}
+
+
+footer{
+    color: white;
+    padding: 15px;
+    text-align: center;
+    background-color: slategrey;
+}
+
+.active{
+    background-color: #666;
+    color: white;
+}
+
+@media screen and (max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .nav a{
+        clear: both;
+        float: none;
+        width: 100%;
+        display: block;
+    }
+}

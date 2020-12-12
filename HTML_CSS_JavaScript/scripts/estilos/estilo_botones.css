@@ -1,0 +1,19 @@
+.botones{
+	background-color: orange;
+	font-weight: bold;
+	width: 80%;
+	text-align: center;
+	padding: 10px 0px;
+	margin: 10px auto;
+}
+
+.botones a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+.botones:hover{
+	background-color: green;
+	cursor: pointer;
+}
