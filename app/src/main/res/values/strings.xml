@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Examen</string>
+
+    <string name="txt_usuario">Ingresa usuario:</string>
+    <string name="txt_contraseña">Ingresa tu contraseña:</string>
+
+    <string name="hint_usuario">Correo electrónico</string>
+    <string name="hint_contraseña">Maximo 8 caracteres</string>
+
+    <string name="btn_registrar">REGISTRO</string>
+    <string name="btn_acceder">ACCEDER</string>
+
+    <string name="btn_modulo_altas_alumnos">AGREGAR ALUMNOS</string>
+    <string name="btn_modulo_bajas_alumnos">ELIMINAR ALUMNOS</string>
+    <string name="btn_modulo_cambios_alumnos">MODIFICAR ALUMNOS</string>
+    <string name="btn_modulo_consultas_alumnos">CONSULTAR ALUMNOS</string>
+
+    <string name="btn_cerrar_Sesion">CERRAR SESION</string>
+
+
+    <string name="txt_altas_alumnos_titulo">AGREGAR ALUMNOS</string>
+    <string name="txt_altas_alumnos_num_control">Ingresa numero de control: </string>
+    <string name="txt_altas_alumnos_nombre">Ingresa nombre: </string>
+
+    <string name="hint_altas_alumnos_num_control">Solo numeros</string>
+    <string name="hint_altas_alumnos_nombre">Solo letras</string>
+
+    <string name="btn_altas_alumnos_agregar">AGREGAR</string>
+
+
+    <string-array name="Semestre">
+        <item>Seleccione el semestre...</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+</resources>
